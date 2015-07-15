@@ -1,6 +1,6 @@
 Jumping Jimmy
 
 
-Creat de : Epurica Eduard si Caragea Radu 
+Creat de: Epurica Eduard si Caragea Radu 
 
 
