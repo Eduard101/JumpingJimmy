@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class gameover : MonoBehaviour
+public class gameover2 : MonoBehaviour
 {
 	int score = 0;        
 	Text scoretext;
@@ -18,10 +18,9 @@ public class gameover : MonoBehaviour
 		//Se extrage scor-ul salvat in playerprefs si se afiseaza pe ecran in scena de game-over.
 	}
 	void Update() {
-				scoretext.text = "SCORE: " + (int)score;
-				
-		       
-		}
-}  
 
+		
+		highscoretext.text = "HIGHSCORE: " + (int)highscore;
+	}
+}  
 
